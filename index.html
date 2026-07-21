@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <h1>Currency Convertor</h1>
+        <form>
+            <div class="content">
+                <div class="general-information">
+                    <p id="main-text">Enter Amount</p>
+                    <input id="amount" value="1">
+                </div>
+                <div class="main-container">
+                    <div class="from">
+                        <p id="heading">From</p>
+                        <div class="select-container">
+                            <img src="https://flagsapi.com/US/flat/64.png" class="flagFrom" />
+                            <select name="toBeChanged" class="options"></select>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                    <div class="to">
+                        <p id="heading">To</p>
+                        <div class="select-container">
+                            <img src="https://flagsapi.com/IN/flat/64.png" class="flagTo" />
+                            <select name="result" class="options"></select>
+                        </div>
+                    </div>
+                </div>
+                <div class="msg">
+                </div>
+                <button id="btn">
+                    Get Exchange Rate
+                </button>
+            </div>
+        </form>
+    </header>
+    <script src="country.js"></script>
+    <script src="logic.js"></script>
+</body>
+
+</html>

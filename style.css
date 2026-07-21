@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: darkred;
+    font-size: 50px;
+    text-align: center;
+}
+
+body {
+    background-color: peachpuff;
+}
+
+form {
+    background-color: #FFFFC5;
+    height: 500px;
+    width: 350px;
+    margin-left: 580px;
+    margin-top: 50px;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+
+#main-text {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.content {
+    padding: 40px;
+    font-size: 25px;
+}
+
+#amount {
+    width: 15rem;
+    height: 2.25rem;
+    font-size: 20px;
+    border: bisque 2px solid;
+    border-radius: 8px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.options {
+    font-size: 15px;
+    border: none;
+    width: 5rem;
+    height: 1.5rem;
+    border: bisque 2px solid;
+    border-radius: 8px;
+}
+
+.msg {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 1.25rem;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: maroon;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 90%;
+}
+
+.to {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.from {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.dropdown {
+    width: 100px;
+    height: 50px;
+}
+
+i {
+    margin-top: 60px;
+    padding-right: 30px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#heading {
+    font-size: 18px;
+}
